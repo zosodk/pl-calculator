@@ -7,10 +7,6 @@
     <orderEntry type="jdk" jdkName="~\PycharmProjects\pl-calculator\.venv" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
-    <content url="file://$MODULE_DIR$" />
-    <orderEntry type="inheritedJdk" />
-    <orderEntry type="sourceFolder" forTests="false" />
-  </component>
   <component name="PackageRequirementsSettings" />
   <component name="PyDocumentationSettings" />
   <component name="ReSTService" />
