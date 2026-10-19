@@ -3,16 +3,17 @@ Operators = ["+", "-", "*", "/"]
 def Lommeregner(Operators):
     num=0
     while True:
-        quitter = input(f"skriv quit hvis du gerne vil quitte, tryk enter for at fortsætte\n")
+        quitter = input(f"Skriv quit hvis du gerne vil afslutte, tryk Enter for at fortsætte\n")
         if quitter.lower() == "quit":
             break
-        tal1 = float(input(f"giv mig et tal"))
-        print(f"nu skal du vælge en operation")
+        tal1 = float(input(f"Skriv det første tal: "))
+        print(f"Nu skal du vælge en operation")
         for ops in Operators:
             num =num+1
             print(f"{num} vil bruge {ops} i regnestykket")
-        value = int(input(f"vælg din operation"))
-        tal2 = float(input(f"giv mig et tal"))
+        value = int(input(f"Vælg din operator: "))
+        tal2 = float(input(f"Skriv det næste tal: "))
+        print("Resultatet bliver: ")
 
         match value:
             case 1:
